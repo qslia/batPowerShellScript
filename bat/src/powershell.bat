@@ -21,7 +21,7 @@ if errorlevel 1 (
 :: Check if target directory exists
 echo Checking target directory...
 if not exist "C:\Users\qslia\Desktop\" (
-    echo ERROR: Directory C:\Users\qslia\Desktop\aimbot does not exist
+    echo ERROR: Directory C:\Users\qslia\Desktop\ does not exist
     pause
     exit /b 1
 )
